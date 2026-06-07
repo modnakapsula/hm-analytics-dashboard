@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Google Cloud service account keys — NEVER commit these
+service-account.json
+*-service-account*.json
+service_account*.json
+*credentials*.json
+*.serviceaccount.json
+
+# Local environment variables — NEVER commit
+.env
+
+# Query cache
+cache/
